@@ -1,0 +1,5 @@
+playwright==1.42.0
+pytest==8.1.1
+pytest-html==4.1.1
+pytest-playwright==0.4.4
+pytest-xdist==3.6.1
