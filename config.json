@@ -1,0 +1,16 @@
+{
+    "Headless": "False",
+	"SlowMo": "0",
+	"DefaultNavigationTimeout": "120000",
+	"DefaultTimeout": "60000",
+
+ "common info" : {
+   "Url" : "https://www.saucedemo.com/",
+   "ValidUserName" : "standard_user",
+   "ValidPassword" : "secret_sauce",
+   "LockedUserName" : "locked_out_user",
+   "LockedPassword" : "secret_sauce",
+   "InvalidUserName" : "test_standard_user",
+   "InvalidPassword" : "testing"
+ }
+}
