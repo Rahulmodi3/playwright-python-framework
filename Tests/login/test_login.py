@@ -1,4 +1,4 @@
-from Pages.login_page import LoginPage
+from Pages.Login.login_page import LoginPage
 from Tests.test_base import BaseTest
 from Utilities.read_config import AppConfiguration
 from playwright.sync_api import expect

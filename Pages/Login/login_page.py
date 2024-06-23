@@ -1,6 +1,6 @@
 from playwright.sync_api import Page, Locator
 
-from Pages.products_list_page import ProductsListPage
+from Pages.Products.products_list_page import ProductsListPage
 from Pages.base_page import BasePage
 
 

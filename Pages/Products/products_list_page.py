@@ -28,7 +28,7 @@ class ProductsListPage(BasePage):
 
     def click_logout(self):
         self.current_page.click(self._selectors.LOGOUT_BUTTON)
-        from Pages.login_page import LoginPage
+        from Pages.Login.login_page import LoginPage
         return LoginPage(self.current_page)
 
     # endregion

@@ -1,11 +1,10 @@
 import base64
 import pytest
-from _pytest.mark import param
 
-from Pages.login_page import LoginPage
+from Pages.Login.login_page import LoginPage
 from Utilities.read_config import AppConfiguration
 from playwright.sync_api import sync_playwright
-from Pages.products_list_page import ProductsListPage
+from Pages.Products.products_list_page import ProductsListPage
 
 
 def get_browser(browser_name, playwright, launch_options):
