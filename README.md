@@ -1,8 +1,7 @@
 # playwright-python-framework
 Create Playwright Framework uisng (Python, playwright, PyTest, Page Object Model, HTML Reports)
 
-
-
+Please follow medium blog for framework understanding 
 [Medium blog](https://medium.com/@modirahul2019/building-a-robust-automation-framework-with-playwright-and-python-99bc27989325)
 
 ## Installation
@@ -31,6 +30,11 @@ pytest
 To Run tests parallel 
 ```bash
 pytest -n=2
+```
+
+To Run tests on specfic browser, e.g firefox
+```bash
+pytest --browser-name firefox
 ```
 
     
