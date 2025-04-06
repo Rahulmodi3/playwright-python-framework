@@ -1,5 +1,8 @@
+# Prioritize Python files
 *.py linguist-detectable=true
+
+# Ignore HTML and report folders
 *.html linguist-vendored
-public/* linguist-vendored
-dist/* linguist-vendored
-node_modules/* linguist-vendored
+reports/* linguist-vendored
+output/* linguist-vendored
+playwright-report/* linguist-vendored
